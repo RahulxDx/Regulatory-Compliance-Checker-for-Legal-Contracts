@@ -1,0 +1,11 @@
+fastapi
+PyPDF2
+docx
+dotenv
+os
+uvicorn
+groq
+json
+streamlit
+chromadb
+pandas

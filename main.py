@@ -4,10 +4,10 @@ from PyPDF2 import PdfReader
 from docx import Document
 from dotenv import load_dotenv
 import os
-from groq import Groq  # Assuming Groq client is installed
+from groq import Groq  # Assuming Groq client is install
 import uvicorn
 import json
-from context_rag import fun
+from app.services.context_rag import fun
 
 s = """
 You are a legal document analysis assistant. Your task is to analyze user-uploaded contracts and extract key clauses accurately.
