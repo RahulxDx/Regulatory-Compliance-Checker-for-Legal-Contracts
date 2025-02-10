@@ -120,7 +120,7 @@ def extract_key_clauses(text: str) -> list:
             top_p=1,
             stream=False,
         )
-        # Parse response to extract key clauses
+        # Parse response to extract key clause
         response_text = completion.choices[0].message.content
         
         return response_text
