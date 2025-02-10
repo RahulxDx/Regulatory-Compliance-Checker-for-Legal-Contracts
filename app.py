@@ -160,4 +160,4 @@ if uploaded_file:
     else:
         st.error(f"❌ Error extracting text: {response.json().get('detail', 'Unknown error')}.")
         
-st.sidebar.markdown("---")
+st.sidebar.markdown("--")
