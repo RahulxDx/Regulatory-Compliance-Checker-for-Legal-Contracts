@@ -7,7 +7,7 @@ client = chromadb.Client(Settings(
     chroma_db_impl="duckdb+parquet"
 ))
 
-# Load the collection (assuming the collection is named 'contracts')
+# Load the collection (assuming the collection is named 'contracts'
 collection = client.get_or_create_collection(name="legal_contracts")
 def fun(userQuery):
 # User query text
